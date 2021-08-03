@@ -1,0 +1,12 @@
+.editIput{
+	font-weight: bold;
+	color: red;
+	background: rgba(199, 21, 133, 0.69);
+	padding: 10px;
+}
+.spanClassName {
+	font-weight: bold;
+	margin-top: 20px;
+	font-size: 20px;
+	border: 5px solid #0040ff;
+}
