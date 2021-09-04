@@ -1,0 +1,17 @@
+.someClass {
+
+}
+
+.error {
+    border: 5px solid red;
+}
+.counter{
+    color: #14d929;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.errorMessage {
+    font-weight: 900;
+    color: #dc1b1b;
+}

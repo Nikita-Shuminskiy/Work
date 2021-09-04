@@ -1,0 +1,14 @@
+.Jun {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: aqua;
+	font-size: 30px;
+}
+.Jun:hover{
+	color: darkred;
+	border-bottom: 10px double darkred;
+}
+.active{
+	color: mediumvioletred;
+}

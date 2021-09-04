@@ -1,0 +1,56 @@
+.img-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    top: 80px
+}
+
+.head-div {
+    width: 70%;
+}
+
+.time {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.message {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    color: #dc1b1b;
+    word-wrap: break-word;
+}
+
+.name {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.div-test {
+    width: 150px;
+    height: 80px;
+    border-radius: 11px;
+    box-shadow: inset 0 0 1em #09181f;
+    box-shadow: 1px 1px 10px #051d32;
+    position: relative;
+    left: 6%;
+    background: #14d929;
+}
+
+.div-test:before {
+    position: absolute;
+    content: "";
+    left: -15px;
+    top: 45px;
+    transform: scaleY(0.5) rotate(45deg);
+    width: 40px;
+    height: 40px;
+    background: #14d929;
+    box-shadow: 5px -5px 10px #14d929;
+}
