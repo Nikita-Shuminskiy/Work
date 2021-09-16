@@ -1,11 +1,13 @@
-import React, { ChangeEvent} from 'react';
+import React, { ChangeEvent, useState } from 'react';
 import { requestAPI } from './Api';
 
 
 
 
 const Request = () => {
-let value:boolean;
+        // @ts-ignore
+   let value:boolean
+
     const onChecked = (e:ChangeEvent<HTMLInputElement>) => value = e.currentTarget.checked
 
     const btnChange = () => {
@@ -16,9 +18,10 @@ let value:boolean;
     }
 
 
+
     return <>
         <button onClick={btnChange} >Ok</button>
-        <input type="checkbox"  onChange={onChecked} />
+        <input type="checkbox"   onChange={onChecked} />
     </>
 };
 
